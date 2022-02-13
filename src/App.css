@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background: linear-gradient(to right top, #004080, #6193b5);
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.header > img {
+  width: 8%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.header > h1 {
+  margin-top: 2.4rem;
+  margin-left: 1rem;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.form {
+  margin: 12rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-ipt {
+  width: 20rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  font-size: 1rem;
+  font-family: monospace;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+.form > button {
+  background: linear-gradient(to right top, #004080, #6193b5);
+  height: 4rem;
+  border-radius: 5px;
+}
+
+.meme-img {
+  margin: 12rem;
+  margin-top: 3rem;
+  width: 54.5rem;
+  height: 35rem;
+}
