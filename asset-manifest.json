@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Meme-Generator-React/static/css/main.d7cce051.css",
+    "main.js": "/Meme-Generator-React/static/js/main.78b9bc3b.js",
+    "static/media/Troll Face.png": "/Meme-Generator-React/static/media/Troll Face.8c63d477f9b399d3039c.png",
+    "index.html": "/Meme-Generator-React/index.html",
+    "main.d7cce051.css.map": "/Meme-Generator-React/static/css/main.d7cce051.css.map",
+    "main.78b9bc3b.js.map": "/Meme-Generator-React/static/js/main.78b9bc3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7cce051.css",
+    "static/js/main.78b9bc3b.js"
+  ]
+}
