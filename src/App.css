@@ -29,7 +29,7 @@
 .form {
   margin: 12rem;
   margin-top: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,9 +52,41 @@
   border-radius: 5px;
 }
 
+.meme {
+  position: relative;
+}
+
+.meme-input {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
 .meme-img {
-  margin: 12rem;
-  margin-top: 3rem;
-  width: 54.5rem;
-  height: 35rem;
+  margin-top: 1rem;
+  margin-left: 25rem;
+  width: 30rem;
+  height: 17rem;
+  max-width: 100%;
+  border-radius: 3px;
 }
